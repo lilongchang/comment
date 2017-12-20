@@ -1,0 +1,88 @@
+/*标题*/
+header{
+    background: #fff;
+}
+.acticle-title{
+    padding: 1.8rem 1rem;
+    font-size: 22px;
+    color: rgb(50, 50, 50)
+}
+header>p{
+    margin: 0 1rem;
+    color: rgb(102, 102, 102);
+    font-size: 13px; /*改px后增加行*/
+}
+.acticle-time{
+    margin-right: .3rem;
+    color: rgb(153, 153, 153);
+}
+.article-source{
+    padding-left: .2rem;
+    border-left: 1px solid rgb(153, 153, 153);
+}
+
+/*文章内容*/
+.content{
+    background: #fff;
+    padding: 1.8rem 1rem;
+}
+.content>p{
+    line-height: 28px;
+    padding-bottom: 1rem;
+    font-size: 18px;
+}
+.prompt{
+    background: #fff;
+    padding: 2rem 1rem;
+    color: rgb(113, 113, 113);
+    font-size: 13px;
+}
+
+
+/*相关资讯*/
+.xiangguan{
+    display: none;
+    background: #fff;
+    margin-top: .5rem;
+    padding: 1rem 1rem .5rem;
+}
+.xiangguan-title{
+
+}
+.xian{
+    margin-top: .5rem;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+.xian em{
+    display: block;
+    width: 1.5rem;
+    height: .1rem;
+    background: -webkit-linear-gradient(90deg, rgb(255, 65, 65), rgb(255, 210, 46)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(90deg, rgb(255, 65, 65), rgb(255, 210, 46)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(90deg, rgb(255, 65, 65), rgb(255, 210, 46)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(90deg, rgb(255, 65, 65), rgb(255, 210, 46)); /* 标准的语法 */
+}
+.list li{
+    padding-top: 1rem;
+    border-bottom: 1px solid rgb(241, 241, 241);
+}
+.list div{
+    font-size: 1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.tag{
+    margin: .8rem 0;
+    font-size: .857143rem /* 12/14 */;
+}
+.tag em{
+    margin-right: .5rem;
+    padding: .2rem .3rem;
+    background-color: rgba(255, 179, 90, 0.2);
+    color: rgb(255, 109, 64);
+}
+.tag strong{
+    float: right;
+    color: rgb(153, 153, 153);
+}
